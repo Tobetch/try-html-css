@@ -1,0 +1,38 @@
+body {
+  background-color: #2d2941;
+  color: #53c9d8;
+}
+
+hr {
+  border: 0;
+  border-top: 2px dashed;
+  margin-top: 30px;
+}
+
+.wasshoi {
+  font-size: 150px;
+}
+
+/* フォント一覧 */
+@font-face {
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff)
+    format("woff");
+}
+
+/* Googleフォント */
+.kaushanScript {
+  font-family: "Kaushan Script";
+}
+
+/* ローカルフォント */
+@font-face {
+  font-family: 'My Starlights';
+  src: local('Starlights');
+}
+
+.starlights {
+  font-family: 'My Starlights';
+}
